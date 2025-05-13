@@ -5,7 +5,6 @@ Built using Electron and powered by `ffmpeg-static`, this app helps reduce video
 
 ### 🔧 Features
 - Compress videos to reduce file size
-- Drag-and-drop support
 - Works offline (no internet required)
 - Built-in FFmpeg (no setup needed)
 - Simple and clean interface
