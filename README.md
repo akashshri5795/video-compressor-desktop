@@ -1,31 +1,56 @@
-# Video Compressor Desktop App
+# Video Compressor Desktop
 
-A free and open-source desktop application to compress videos with ease.  
-Built using Electron and powered by `ffmpeg-static`, this app helps reduce video file sizes without compromising quality.
+A lightweight desktop application for compressing video files while
+reducing file size and maintaining practical video quality.
 
-### 🔧 Features
-- Compress videos to reduce file size
-- Works offline (no internet required)
-- No other setup needed
-- Simple and clean interface
+Built with Electron and FFmpeg, the application provides a simple
+offline workflow for compressing videos directly on the user's
+computer.
 
-### 🖥️ How to Use
-1. Download the `.exe` file from the [Releases](https://github.com/akashshri5795/video-compressor-desktop/releases) section.
-2. Double-click to install or run.
-3. Select the location of video files in the app and compress!
+## ✨ Features
 
-### 📦 Download
-> 👉 [Click here to download the latest .exe](https://github.com/akashshri5795/video-compressor-desktop/releases/latest)
+- 🎥 Video compression
+- 📉 Reduce video file size
+- 🖥️ Cross-platform Electron desktop architecture
+- 🔒 Offline processing
+- ⚡ FFmpeg-powered video processing
+- 🎯 Simple and easy-to-use interface
+- 📦 Standalone desktop release
+- 🚀 Versioned releases through GitHub
 
-### 📁 Tech Stack
+## 🛠️ Tech Stack
+
 - Electron.js
-- ffmpeg-static
-- JavaScript / Node.js
+- JavaScript
+- FFmpeg
+- Node.js
+- npm
 
-### 📃 License
-MIT — Free to use, share, and modify.
+## 🔄 How It Works
 
----
+1. Select a video file.
+2. Choose the required compression workflow/settings.
+3. FFmpeg processes the video locally.
+4. The compressed video is generated on the user's machine.
 
-## 🤝 Contributing
-Pull requests are welcome! Feel free to fork the repo and improve it.
+No video upload to a remote server is required for the core
+compression workflow.
+
+## 📥 Download
+
+Download the latest Windows release from the
+[Releases](../../releases) section.
+
+The repository currently includes packaged desktop releases.
+
+## 🚀 Development Setup
+
+### Prerequisites
+
+Make sure Node.js and npm are installed.
+
+### Clone the repository
+
+```bash
+git clone https://github.com/akashshri5795/video-compressor-desktop.git
+cd video-compressor-desktop
